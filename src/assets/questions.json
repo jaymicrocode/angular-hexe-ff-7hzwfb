@@ -1,0 +1,97 @@
+[
+  {
+    "text": "Welche Gedanken kommen dir in den Sinn, wenn du morgens durch Vogelgezwitscher von Küken geweckt wirst?",
+    "id": 0,
+    "img": "kueken.jpg",
+    "options": [
+      {
+        "text": "Das Gezwitscher ist eigentlich ganz nett, aber die penetranten Küken nerven schon etwas.",
+        "wert": 0
+      },
+      {
+        "text": "Wenn ich eines der Küken erwische, drehe ich ihm den Hals um.",
+        "wert": -1
+      },
+      {
+        "text": "Oh wie süß...am liebsten würde ich mich zu den Küken ins Nest setzen und mit zwitschern.",
+        "wert": 1
+      }
+    ]
+  },
+  {
+    "text": "Du machst einen Waldspaziergang und stolperst leicht, weil du an einem heruntergefallenen Ast hängen bleibst. Wie reagierst du?",
+    "id": 1,
+    "img": "ast.jpeg",
+    "options": [
+      {
+        "text": "Oh mein Gott! Ein Baum hat einen Ast verloren. Ich muss unbedingt den Baum finden, vielleicht wächst er wieder an.",
+        "wert": 1
+      },
+      {
+        "text": "Wenn ich jetzt eine Kreissäge zur Hand hätte, würde ich den ganzen Wald abholzen.",
+        "wert": -1
+      },
+      {
+        "text": "Och Mensch, die heruntergefallenen Äste könnte aber schon mal jemand zur Seite räumen.",
+        "wert": 0
+      }
+    ]
+  },
+  {
+    "text": "Während einer Waldwanderung machst du Rast auf einer Lichtung. Als du gemütlich Brotzeit machst, juckt es plötzlich an deinem Fuß und du siehst, wie eine Feuerameise über dich krabbelt. Wie reagierst du?",
+    "id": 2,
+    "img": "ameise.jpg",
+    "options": [
+      {
+        "text": "Du schreckst auf, hältst Ausschau nach dem Ameisenhaufen und springst mit viel Schwung beidbeinig hinein.",
+        "wert": -1
+      },
+      {
+        "text": "Du verscheuchst die Ameise, packst deine Sachen zusammen und suchst dir einen anderen Ort zum rasten.",
+        "wert": 0
+      },
+      {
+        "text": "Du heißt die Ameise willkommen und reibst deine Beine mit Limonade ein, damit sich noch mehr Ameisen an deiner Haut erfreuen können.",
+        "wert": 1
+      }
+    ]
+  },
+  {
+    "text": "Nach einem langen Tag des Wanderns nimmst du ein erfrischendes Bad in einem kleines Fluss. Plötzlich verspührst du ein stechenden Schmerz an deinem Fuß. Wie du herab siehst, bemerkst du, dass eine kleiner Flußkrebs deinen kleinen Zeh in seiner Schere hält. Wie reagierst du?",
+    "id": 3,
+    "img": "krebs.jpg",
+    "options": [
+      {
+        "text": "Erschreckt hüpfst du auf einem Bein aus dem Wasser und versuchst den Krebs abzuschütteln.",
+        "wert": 0
+      },
+      {
+        "text": "Erschreckt hüpfst du auf einem Bein aus dem Wasser und suchst ein schattiges Plätzchen, wo du dich niederlässt um dem Krebs Raum und Zeit zu geben, mit deinem Zeh zu spielen.",
+        "wert": 1
+      },
+      {
+        "text": "Vor lauter Wut ergreifst du einen großen Stein und wirfst ihn nach dem Krebs. Dadurch triffst du deinen Fuß und wirst noch wütender.",
+        "wert": -1
+      }
+    ]
+  },
+  {
+    "text": "Du kämpfst dich durch ein besonders dichtes Waldstück und stehst völlig unvorbereitet vor einem zwei Meter großen Grizzly Bear. Was geht dir durch den Kopf?",
+    "id": 4,
+    "img": "baer.jpeg",
+    "options": [
+      {
+        "text": "Oh ist der süüüß!",
+        "wert": 1
+      },
+      {
+        "text": "Nicht bewegen, dann interessiert er sich nicht für!",
+        "wert": 0
+      },
+      {
+        "text": "Wo ist mein Taschenmesser?",
+        "wert": -1
+      }
+    ]
+  }
+]

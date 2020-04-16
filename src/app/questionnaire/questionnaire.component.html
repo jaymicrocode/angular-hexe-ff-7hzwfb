@@ -1,0 +1,43 @@
+<div class="box">
+  <h1>
+    Hexe oder Prinzessin?
+  </h1>
+</div>
+<div *ngFor="let question of questions | async; first as isFirst; last as isLast">
+	<div *ngIf="showQuestion(question.id)">
+		<app-question [question]="question">
+		</app-question>
+		<div class="box">
+      <button *ngIf="!isFirst" (click)="previousQuestion()" class="button zurueck">
+        <span>
+          Zurück
+        </span>
+      </button>
+      <button *ngIf="!isLast" (click)="nextQuestion()" class="button vor">
+        <span>
+          Weiter
+        </span>
+      </button>
+      <button *ngIf="isLast" (click)="jumpToResult()" class="button vor">
+          <span>
+            Zum Ergebnis
+          </span>
+      </button>
+		</div>
+	</div>
+</div>
+<div *ngIf="showResults()">
+	<div *ngFor="let result of results | async;">
+		<div *ngIf="showResult(result)">
+			<app-result [result]="result">
+			</app-result>
+		</div>
+	</div>
+	<div class="box">
+		<button (click)="jumpToFirstQuestion()" class="button zurueck">
+      <span>
+        Nochmal von vorne!
+      </span>
+  </button>
+	</div>
+</div>

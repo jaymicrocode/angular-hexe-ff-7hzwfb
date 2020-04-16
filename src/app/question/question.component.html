@@ -1,0 +1,16 @@
+<div class="box">
+	<img [src]="imgUrl">
+
+  <div  class="question-text box">
+    <p>
+      {{ question.text }}
+    </p>
+  </div>
+
+	<div *ngFor="let option of options">
+
+		<app-option [option]="option" [inputGroup]="inputGroup()" [questionId]="question.id">
+		</app-option>
+
+	</div>
+</div>
